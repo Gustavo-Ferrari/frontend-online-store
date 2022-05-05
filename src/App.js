@@ -10,7 +10,7 @@ import FinishingProduct from './pages/FinishingProduct';
 class App extends React.Component {
   state = {
     searchInput: '',
-    cartItems: JSON.parse((localStorage.getItem('cartItemnpm install react-router-dom@6s') ?? '[]')),
+    cartItems: JSON.parse((localStorage.getItem('cartItems') ?? '[]')),
   }
 
   updateAppState = (entries, callbackFunction) => {

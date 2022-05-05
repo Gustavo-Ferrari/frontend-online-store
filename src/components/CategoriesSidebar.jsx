@@ -20,7 +20,7 @@ class CategoriesSidebar extends Component {
     const { categoriesArray } = this.props;
     return (
       <div className="sideCard">
-        <p>Categorias</p>
+        <p>Categories</p>
         <ul>
           { categoriesArray.map((category) => (
             <li key={ category.id }>
